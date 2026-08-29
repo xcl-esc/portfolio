@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleber Júnior // Data Science & Machine Learning</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        canvas: '#07090e',
+                        surface: '#0d111a',
+                        'surface-border': '#1b2234',
+                        accent: '#38bdf8',
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        mono: ['"JetBrains Mono"', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-canvas text-slate-200 font-sans antialiased selection:bg-accent selection:text-canvas">
+
+    <header class="sticky top-0 z-50 bg-canvas/90 backdrop-blur-md border-b border-surface-border">
+        <div class="max-w-5xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="#" class="font-mono text-base font-bold tracking-tight text-slate-100 flex items-center gap-2.5">
+                <span class="w-2.5 h-2.5 rounded-full bg-accent animate-pulse"></span>
+                CLEBER JÚNIOR <span class="text-slate-500 font-normal">// DATA SCIENCE </span>
+            </a>
+            
+            <nav class="hidden md:flex items-center gap-8 font-mono text-sm tracking-wider text-slate-400 uppercase">
+                <a href="#projects" class="hover:text-accent transition">// PROJETOS</a>
+                <a href="#blog" class="hover:text-accent transition">// ESTUDOS<sup>MEDIUM</sup></a>
+                <a href="#process" class="hover:text-accent transition">// PROCESSO</a>
+                <a href="#stack" class="hover:text-accent transition">// STACK</a>
+            </nav>
+
+            <a href="https://wa.me/5561999194631?text=Ol%C3%A1%20Cleber,%20vi%20seu%20portf%C3%B3lio!" target="_blank" class="font-mono text-sm px-4 py-2 bg-surface border border-surface-border hover:border-slate-500 text-slate-100 rounded transition font-bold flex items-center gap-2">
+                <i class="fab fa-whatsapp text-emerald-400 text-base"></i> FALE COMIGO
+            </a>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-6 pt-12 pb-24 space-y-20">
+
+        <section class="space-y-6 pt-4">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded bg-surface border border-surface-border font-mono text-xs sm:text-sm text-accent">
+                <span class="w-2 h-2 rounded-full bg-accent"></span>
+                FOCO EM MACHINE LEARNING & CIÊNCIA DE DADOS
+            </div>
+
+            <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-slate-100 leading-tight">
+                Data Science & Machine Learning.
+            </h1>
+
+            <p class="text-slate-300 text-lg sm:text-xl max-w-2xl leading-relaxed">
+                Desenvolvo pipelines de extração e tratamento de dados, análises exploratórias e modelos de Machine Learning, suportado por forte experiência em Python, SQL e arquitetura de dados.</p>
+
+            <div class="flex flex-wrap items-center gap-4 pt-2 font-mono text-sm">
+                <a href="#projects" class="px-6 py-3.5 bg-accent text-canvas font-bold rounded hover:opacity-90 transition flex items-center gap-2 uppercase tracking-wider">
+                    VER PROJETOS <i class="fas fa-arrow-down text-xs"></i>
+                </a>
+                <a href="https://github.com/xcl-esc/xcl-esc" target="_blank" class="px-6 py-3.5 bg-surface border border-surface-border hover:border-slate-500 text-slate-200 rounded transition flex items-center gap-2 uppercase tracking-wider">
+                    <i class="fab fa-github"></i> GITHUB
+                </a>
+                <a href="https://www.linkedin.com/in/cleber-xcl-esc" target="_blank" class="px-6 py-3.5 bg-surface border border-surface-border hover:border-slate-500 text-slate-200 rounded transition flex items-center gap-2 uppercase tracking-wider">
+                    <i class="fab fa-linkedin"></i> LINKEDIN
+                </a>
+            </div>
+        </section>
+
+        <div class="border-b border-surface-border"></div>
+
+        <section id="projects" class="space-y-8">
+            <div class="flex items-end justify-between">
+                <div>
+                    <span class="font-mono text-sm text-accent uppercase tracking-wider">// SELECTED WORK</span>
+                    <h2 class="text-3xl font-bold text-slate-100 mt-1">Projetos em Destaque</h2>
+                </div>
+                <span class="font-mono text-xs sm:text-sm text-slate-500 uppercase">DATA SCIENCE & ANALYTICS</span>
+            </div>
+
+            <div class="grid grid-cols-1 gap-6">
+                <div class="bg-surface border border-surface-border rounded-xl p-7 hover:border-slate-600 transition space-y-4">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                        <div class="flex items-center gap-3">
+                            <span class="font-mono text-sm text-slate-500">[01]</span>
+                            <h3 class="text-2xl font-bold text-slate-100">Análise de Densidade Populacional Chinesa</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 font-mono text-xs">
+                            <span class="px-2.5 py-1 bg-canvas border border-surface-border text-accent rounded font-bold">PYTHON</span>
+                            <span class="px-2.5 py-1 bg-canvas border border-surface-border text-slate-300 rounded">GEOPANDAS</span>
+                            <span class="px-2.5 py-1 bg-canvas border border-surface-border text-slate-300 rounded">PANDAS</span>
+                            <span class="px-2.5 py-1 bg-canvas border border-surface-border text-slate-300 rounded">MATPLOTLIB</span>
+                        </div>
+                    </div>
+                    <p class="text-slate-300 text-base leading-relaxed">
+                        Análise de dados geoespaciais e demográficos para mapeamento da distribuição e densidade populacional nas províncias chinesas, com foco em limpeza de bases complexas e visualização cartográfica de dados.
+                    </p>
+                    <div class="pt-2 font-mono text-sm">
+                        <a href="https://github.com/xcl-esc/densidade_populacional_chinesa" target="_blank" class="text-slate-200 hover:text-accent transition inline-flex items-center gap-2 font-bold">
+                            VER REPOSITÓRIO <i class="fas fa-arrow-up-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-surface border border-surface-border rounded-xl p-7 hover:border-slate-600 transition space-y-4">
+                    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                        <div class="flex items-center gap-3">
+                            <span class="font-mono text-sm text-slate-500">[02]</span>
+                            <h3 class="text-2xl font-bold text-slate-100">Análise Exploratória e Tratamento de Dados (Goodreads)</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 font-mono text-xs">
+                            <span class="px-2.5 py-1 bg-canvas border border-surface-border text-accent rounded font-bold">PYTHON</span>
+                            <span class="px-2.5 py-1 bg-canvas border border-surface-border text-slate-300 rounded">PANDAS</span>
+                            <span class="px-2.5 py-1 bg-canvas border border-surface-border text-slate-300 rounded">SEABORN</span>
+                            <span class="px-2.5 py-1 bg-canvas border border-surface-border text-slate-300 rounded">EDA</span>
+                        </div>
+                    </div>
+                    <p class="text-slate-300 text-base leading-relaxed">
+                        Pipeline de sanitização, tratamento de falhas de parsing e análise exploratória sobre o dataset de livros do Goodreads, identificando padrões de avaliação, distribuições de autores e insights editoriais.
+                    </p>
+                    <div class="pt-2 font-mono text-sm">
+                        <a href="https://github.com/xcl-esc/Analise_Goodreads" target="_blank" class="text-slate-200 hover:text-accent transition inline-flex items-center gap-2 font-bold">
+                            VER REPOSITÓRIO <i class="fas fa-arrow-up-right text-xs"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="process" class="space-y-8 bg-surface/50 border border-surface-border p-8 rounded-2xl">
+            <div>
+                <span class="font-mono text-sm text-accent uppercase tracking-wider">// DATA PIPELINE WORKFLOW</span>
+                <h2 class="text-3xl font-bold text-slate-100 mt-1">Do Dado Bruto à Predição</h2>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 font-mono">
+                <div class="space-y-2.5 border-l-2 border-slate-700 pl-4">
+                    <span class="text-xs text-accent font-bold">01 // EXTRAÇÃO</span>
+                    <h4 class="text-base font-bold text-slate-100 uppercase">Injestão</h4>
+                    <p class="text-sm text-slate-300 font-sans leading-relaxed">Web scraping e consultas SQL otimizadas para coleta contínua de fontes heterogêneas.</p>
+                </div>
+
+                <div class="space-y-2.5 border-l-2 border-slate-700 pl-4">
+                    <span class="text-xs text-accent font-bold">02 // TRATAMENTO</span>
+                    <h4 class="text-base font-bold text-slate-100 uppercase">Limpeza & EDA</h4>
+                    <p class="text-sm text-slate-300 font-sans leading-relaxed">Sanitização de dados, tratamento de vazios/outliers e análise exploratória estatística.</p>
+                </div>
+
+                <div class="space-y-2.5 border-l-2 border-slate-700 pl-4">
+                    <span class="text-xs text-accent font-bold">03 // MODELAGEM</span>
+                    <h4 class="text-base font-bold text-slate-100 uppercase">Machine Learning</h4>
+                    <p class="text-sm text-slate-300 font-sans leading-relaxed">Treinamento de modelos preditivos, clusterização e validação de métricas de desempenho.</p>
+                </div>
+
+                <div class="space-y-2.5 border-l-2 border-accent pl-4">
+                    <span class="text-xs text-accent font-bold">04 // IMPLANTAÇÃO</span>
+                    <h4 class="text-base font-bold text-slate-100 uppercase">Deploy</h4>
+                    <p class="text-sm text-slate-300 font-sans leading-relaxed">Containerização com Docker e integração com dashboards ou rotinas automatizadas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="space-y-8">
+            <div class="flex items-end justify-between border-b border-surface-border pb-3">
+                <div>
+                    <span class="font-mono text-sm text-accent uppercase tracking-wider">// LINHA TEMPORAL DE ESTUDOS</span>
+                    <h2 class="text-3xl font-bold text-slate-100 mt-1">Artigos & Estudos de Caso</h2>
+                </div>
+                <span class="font-mono text-xs sm:text-sm text-slate-500 uppercase">LIVE FEED</span>
+            </div>
+
+            <div id="medium-feed" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="col-span-full p-8 bg-surface border border-surface-border rounded-xl text-center font-mono text-sm text-slate-400">
+                    Sincronizando artigos do Medium...
+                </div>
+            </div>
+        </section>
+
+        <section id="stack" class="space-y-6">
+            <span class="font-mono text-sm text-accent uppercase tracking-wider">// TECH STACK</span>
+            
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 font-mono text-sm">
+                <div class="p-5 bg-surface border border-surface-border rounded-lg space-y-1.5">
+                    <div class="text-slate-100 font-bold">LINGUAGENS & FRAMEWORKS</div>
+                    <div class="text-slate-300 text-xs sm:text-sm">Python (DAJNGO // FastAPI), SQL, JS</div>
+                </div>
+                <div class="p-5 bg-surface border border-surface-border rounded-lg space-y-1.5">
+                    <div class="text-slate-100 font-bold">DATA & ML</div>
+                    <div class="text-slate-300 text-xs sm:text-sm">Django, FastAPI, Pandas, Scikit-Learn, NumPy, Selenium, Seaborn</div>
+                </div>
+                <div class="p-5 bg-surface border border-surface-border rounded-lg space-y-1.5">
+                    <div class="text-slate-100 font-bold">EXTRAÇÃO & WEB</div>
+                    <div class="text-slate-300 text-xs sm:text-sm">Selenium, PlayWright, BeautifulSoup, Requests</div>
+                </div>
+                <div class="p-5 bg-surface border border-surface-border rounded-lg space-y-1.5">
+                    <div class="text-slate-100 font-bold">INFRA & BD</div>
+                    <div class="text-slate-300 text-xs sm:text-sm">PostgreSQL, SQLite, Docker, Git</div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-surface-border py-10 bg-surface/30">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center gap-4 font-mono text-sm text-slate-400">
+            <p>© 2026 Cleber Júnior. Hosted on GitHub Pages.</p>
+            <div class="flex gap-6">
+                <a href="https://github.com/xcl-esc/xcl-esc" target="_blank" class="hover:text-accent transition">GitHub</a>
+                <a href="https://www.linkedin.com/in/cleber-xcl-esc" target="_blank" class="hover:text-accent transition">LinkedIn</a>
+                <a href="https://medium.com/@cleberwagner31" target="_blank" class="hover:text-accent transition">Medium</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const MEDIUM_USERNAME = "cleberwagner31";
+
+        async function fetchMediumPosts() {
+            const feedContainer = document.getElementById('medium-feed');
+            const rssUrl = `https://medium.com/feed/@${MEDIUM_USERNAME}`;
+            const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
+
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+
+                if (data.status !== 'ok' || !data.items || data.items.length === 0) {
+                    feedContainer.innerHTML = `
+                        <div class="col-span-full p-8 bg-surface border border-surface-border rounded-xl text-center font-mono text-sm text-slate-300">
+                            Nenhum artigo encontrado no feed. <a href="https://medium.com/@${MEDIUM_USERNAME}" target="_blank" class="text-accent underline font-bold">Acesse diretamente no Medium</a>.
+                        </div>`;
+                    return;
+                }
+
+                feedContainer.innerHTML = ''; 
+
+                data.items.slice(0, 3).forEach(post => {
+                    const pubDate = new Date(post.pubDate).toLocaleDateString('pt-BR', {
+                        day: '2-digit',
+                        month: 'short'
+                    });
+
+                    const tempDiv = document.createElement('div');
+                    tempDiv.innerHTML = post.content || post.description;
+                    const cleanSnippet = (tempDiv.textContent || tempDiv.innerText || "").slice(0, 100) + "...";
+
+                    const postCard = `
+                        <article class="bg-surface border border-surface-border rounded-xl p-6 hover:border-slate-500 transition flex flex-col justify-between space-y-4">
+                            <div class="space-y-2.5">
+                                <span class="font-mono text-xs text-accent font-bold">${pubDate}</span>
+                                <h3 class="text-lg font-bold text-slate-100 hover:text-accent transition">
+                                    <a href="${post.link}" target="_blank">${post.title}</a>
+                                </h3>
+                                <p class="text-slate-300 text-sm leading-relaxed">${cleanSnippet}</p>
+                            </div>
+                            <div class="pt-4 border-t border-surface-border font-mono text-xs sm:text-sm">
+                                <a href="${post.link}" target="_blank" class="text-slate-200 hover:text-accent transition flex items-center justify-between font-bold">
+                                    <span>LER NO MEDIUM</span>
+                                    <i class="fas fa-arrow-up-right text-xs"></i>
+                                </a>
+                            </div>
+                        </article>
+                    `;
+                    feedContainer.insertAdjacentHTML('beforeend', postCard);
+                });
+
+            } catch (error) {
+                feedContainer.innerHTML = `
+                    <div class="col-span-full p-8 bg-surface border border-surface-border rounded-xl text-center font-mono text-sm text-slate-400">
+                        Não foi possível carregar os artigos automaticamente.
+                    </div>`;
+            }
+        }
+
+        fetchMediumPosts();
+    </script>
+</body>
+</html>
